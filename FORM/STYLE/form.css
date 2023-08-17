@@ -1,0 +1,151 @@
+/* MAIN */
+main {
+  padding: 0;
+  max-width: 100vw;
+  height: 100%;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+body {
+  min-height: 100vh;
+  margin: 0;
+  display: grid;
+}
+.body-form {
+  background-image: url("/img/Colorful-circles-glare-black-background_m.webp");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Style Navbar */
+
+.font-navbar {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.bgnavbar {
+  background: linear-gradient(to right, #575555, #943994, #2139e9);
+}
+
+html {
+  height: 100%;
+}
+
+/* footer {
+  margin-top: auto;
+  background-size: cover;
+  background-position: top;
+} */
+
+/*Style form*/
+.swal2-styled {
+  margin: 10px !important;
+  border-radius: 0px !important;
+  padding: 10px !important;
+  background-color: #faee9e !important;
+  color: black !important;
+  cursor: pointer !important;
+  font-weight: 600 !important;
+  border: 1px solid black !important;
+}
+
+.swal2-styled:hover {
+  color: #faee9e !important;
+  background-color: black !important;
+}
+
+.swal2-container > div {
+  color: black !important;
+}
+
+.form-box {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  box-shadow: 0 10px 20px rgba(221, 216, 216, 0.6);
+  border-radius: 10px;
+}
+
+.form-box h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: #ffffff;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.form-box .user-box {
+  position: relative;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.form-box .user-box input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #f5f5f5;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  outline: none;
+  background: transparent;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.form-box .user-box label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fcfcfc;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.form-box .user-box input:focus ~ label,
+.form-box .user-box input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #943994;
+  font-size: 14px;
+}
+
+.radio {
+  color: #ffffff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 16px;
+}
+
+.genero {
+  font-size: 16px;
+}
+
+/* Style button */
+.button4 {
+  /* border-radius: 0.6rem; */
+  background: #943994;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  align-self: center;
+  font-size: 15px;
+  margin: 10px;
+
+  text-align: center;
+  padding: 10px 10px;
+  cursor: pointer;
+  color: #ffffff;
+
+  /* box-sizing: border-box; */
+}
+.button4 {
+  border: solid 2px rgb(247, 0, 255);
+}
+.button4:hover {
+  color: rgb(255, 0, 255);
+  box-shadow: 0 0 5px rgb(255, 0, 200), 0px 0px 20px rgb(234, 0, 255),
+    0 0 20px rgb(255, 0, 255), 0 0 80px rgb(225, 0, 255);
+}
